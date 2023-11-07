@@ -5,10 +5,12 @@
 
 import Foundation
 
+
+var newTeam: [PlayerModel] = []
+
+var pointTotal = 0
+
 func chapterOne() {
-    var newTeam: [PlayerModel] = []
-    
-    var pointTotal = 0
     
     //func pointTotal(){
     //
@@ -60,9 +62,7 @@ func chapterOne() {
     
     generateTeam()
     
-    var coachName: String
-    
-    coachName = ("Ian Simons")
+  
     
     
     print("Welcome to the 2023-2024 NFL season!,You have just been apointed as the head coach for the Detroit Lions! Enter your name to begin. Meet Coach \(coachName), a passionate football enthusiast, who's been given the chance to lead the Lions to a fantasy football championship. Coach \(coachName), the day you have long anticipated has arrived, draft day! You carefully select the players who will represent the Lions on the field. Your selection will shape the course of the season.")

@@ -31,12 +31,6 @@ var POteams:[PlayOffModel] = [
     PlayOffModel(POTeamName: "Washington Commanders", POScore: 55)
 ]
 
-//These will change to the ones made off of chapter 1 and 2
-var totalWins = 12
-var totalLosses = 0
-var totalDraws = 0
-//this will need to change to a variable
-let Total = 58
 
 //Bools for the playoff game generator
 var didWinFirstRound = false
@@ -47,7 +41,7 @@ var didWinSuperbowl = false
 func chapterThree() {
 
  // Your portion of the story goes here
-    //print("Great job \(CoachName)!!")
+    print("Great job \(coachName)!!")
     print("You've made it through the regular season, now let's see how you made it to the play-offs!")
     print("You need to have at least 10 regualar season wins to make it.")
     print("You're ending season scores are")
@@ -77,7 +71,7 @@ func chapterThree() {
             print("Your first Play-Off game is today.")
             print("The lions will now play against \(newTeam.POTeamName)")
             
-            if Total >= newTeam.POScore {
+            if pointTotal >= newTeam.POScore {
                 
         
                 print("Great job, coach! You Won against the \(newTeam.POTeamName)! That means you are moving on to the next Play-Off game!")
@@ -86,7 +80,7 @@ func chapterThree() {
                 POteams.removeAll(where: {$0 == newTeam })
                 didWinFirstRound = true
             
-            } else if Total < newTeam.POScore {
+            } else if pointTotal < newTeam.POScore {
                 print("Your team lost against the \(newTeam.POTeamName), SOL!")
                 print("you are feeling \(coachfeelings.sad)...")
                 
@@ -103,7 +97,7 @@ func chapterThree() {
             print("The lions will now play against \(newTeam.POTeamName)")
             print("you are feeling \(coachfeelings.happy)!")
             
-            if Total >= newTeam.POScore {
+            if pointTotal >= newTeam.POScore {
                 
                 
                 print("Great job, coach! You Won against the \(newTeam.POTeamName)! That means you are moving on to the next Play-Off game!")
@@ -112,7 +106,7 @@ func chapterThree() {
                 POteams.removeAll(where: {$0 == newTeam })
                 didWinSecondRound = true
             
-            } else if Total < newTeam.POScore {
+            } else if pointTotal < newTeam.POScore {
                 print("Your team lost against the \(newTeam.POTeamName), SOL!")
                 print("you are feeling \(coachfeelings.frustrated)!")
                 
@@ -132,7 +126,7 @@ func chapterThree() {
             print("The lions will now play against \(newTeam.POTeamName)")
             print("you are feeling \(coachfeelings.nervous)!")
             
-            if Total >= newTeam.POScore {
+            if pointTotal >= newTeam.POScore {
                 
                 
                 print("Great job, coach! You Won against the \(newTeam.POTeamName)! You made histroy, you are taking the Lions to the Superbowl!")
@@ -142,7 +136,7 @@ func chapterThree() {
                 POteams.removeAll(where: {$0 == newTeam })
                 didWinThirdRound = true
             
-            } else if Total < newTeam.POScore {
+            } else if pointTotal < newTeam.POScore {
                 print("Your team lost against the \(newTeam.POTeamName), SOL!")
                 print("You are feeling \(coachfeelings.sad)...")
                 
@@ -161,7 +155,7 @@ func chapterThree() {
             print("Welcome to the Superbowl!! Now is your chance to show that the Lions really are the Kings of the NFL. This is your day to make Detroit proud")
             print("The lions will now play against \(newTeam.POTeamName)")
             
-            if Total >= newTeam.POScore {
+            if pointTotal >= newTeam.POScore {
                 
                 
                 print("Great job, coach! You Won against the \(newTeam.POTeamName)! YOU DID IT!!!!")
@@ -172,7 +166,7 @@ func chapterThree() {
                 POteams.removeAll(where: {$0 == newTeam })
                 didWinSuperbowl = true
             
-            } else if Total < newTeam.POScore {
+            } else if pointTotal < newTeam.POScore {
                 print("Your team lost against the \(newTeam.POTeamName), SOL!")
                 print("You and the whole city of Detroit are feeling \(coachfeelings.defeated).")
                 

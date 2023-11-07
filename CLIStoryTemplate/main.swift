@@ -5,6 +5,9 @@
 
 import Foundation
 
+var coachName: String = ("Ian")
+
+
 // Lions Team Struct
 struct PlayerModel {
     
