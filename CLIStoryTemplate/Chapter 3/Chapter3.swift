@@ -15,6 +15,7 @@ enum coachfeelings {
     case frustrated
     case defeated
     case nervous
+    case mad
 }
 
 
