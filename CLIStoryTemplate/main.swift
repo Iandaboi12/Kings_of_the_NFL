@@ -3,6 +3,7 @@
 //  CLIStoryTemplate
 //
 
+TopPlayers
 import Foundation
 
 struct OpponentModel {
@@ -87,48 +88,28 @@ let RB5 = "David Mont"
 let RB5Score = 8
 let RB6 = "D'Andre Swift"
 
-let WR1 = "Calvin Johnson 'Megatron'"
-let WR1Score = 10
-let WR2 = "Herman Moore"
-let WR2Score = 10
-let WR3 = "Golden Tate III"
-let WR3Score = 9
-let WR4 = "Johnnie Morton"
-let WR4Score = 9
-let WR5 = "Amon-Ra St. Brown"
-let WR5Score = 8
-let WR6 = "Marvin Jones"
-let WR6Score = 6
-let WR7 = "Jameson Williams"
-let WR7Score = 5
+struct OpponentModel {
+let TeamName:String
+let Score:Int
+}
+ main
 
-let D1P1 = "Joe Schmidt"
-let D1P1Score = 10
-let D1P2 = "Lem Barney"
-let D1P2Score = 10
-let D1P3 = "Brian Branch"
-let D1P3Score = 5
-let D1P4 = "Bennie Blades"
-let D1P4Score = 8
+struct PlayerModel {
+    var name: String
+    var position: String
+    var value: Int
+}
 
-let D2P1 = "James Houston"
-let D2P1Score = 6
-let D2P2 = "Aidan Hutchinson"
-let D2P2Score = 7
-let D2P3 = "Dick LeBeau"
-let D2P3Score = 9
-let D2P4 = "Richard Lane"
-let D2P4Score = 9
+import Foundation
 
-let D3P1 = "C.J. Gardner-Johnson"
-let D3P1Score = 8
-let D3P2 = "Alex Anzalone"
-let D3P2Score = 7
-let D3P3 = "Jack Campbell"
-let D3P3Score = 6
-let D3P4 = "Jack Christiansen"
-let D3P4Score = 9
 
+
+var lionsDP3:[PlayerModel] = [
+PlayerModel(name: "C.J.Gardner-Johnson", position: "DP3", value: 8),
+PlayerModel(name: "Alex Anzalone", position: "DP3", value: 7),
+PlayerModel(name: "Jack Campbell", position: "DP3", value: 6),
+PlayerModel(name:"Jack Christiansen", position: "DP3", value: 9)
+]
 
 func readStory() {
     chapterOne()

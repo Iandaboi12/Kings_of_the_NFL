@@ -5,6 +5,7 @@
 
 import Foundation
 func chapterTwo() {
+ TopPlayers
    
     
 //Game 1
@@ -452,3 +453,11 @@ print("Game 3")
         
 }
     }
+
+    print("Hello, world!")
+    print("point value xd \(pointTotal)")
+    
+    
+}
+
+ main
