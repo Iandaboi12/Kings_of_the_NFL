@@ -7,4 +7,8 @@ import Foundation
 
 func chapterTwo() {
     print("Hello, world!")
+    print("point value xd \(pointTotal)")
+    
+    
 }
+
