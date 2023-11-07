@@ -24,11 +24,11 @@ let POScore:Int
 }
 
 var POteams:[PlayOffModel] = [
-    PlayOffModel(POTeamName: "Philedelphia Eagles", POScore: 52),
-    PlayOffModel(POTeamName: "Buffalo Bills", POScore: 56),
-    PlayOffModel(POTeamName: "Los Angeles Rams", POScore: 54),
-    PlayOffModel(POTeamName: "San Francisco 49ers", POScore: 53),
-    PlayOffModel(POTeamName: "Washington Commanders", POScore: 55)
+    PlayOffModel(POTeamName: "Philedelphia Eagles", POScore: 42),
+    PlayOffModel(POTeamName: "Buffalo Bills", POScore: 43),
+    PlayOffModel(POTeamName: "Los Angeles Rams", POScore: 47),
+    PlayOffModel(POTeamName: "San Francisco 49ers", POScore: 43),
+    PlayOffModel(POTeamName: "Washington Commanders", POScore: 50)
 ]
 
 

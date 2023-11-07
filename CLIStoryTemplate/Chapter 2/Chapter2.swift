@@ -23,15 +23,15 @@ func chapterTwo() {
     
     
     if pointTotal > teams[0].Score {
-        "Great job, coach! You Won against the \(teams[0].TeamName)!"
+        print("Great job, coach! You Won against the \(teams[0].TeamName)!")
         
         totalWins += 1
     } else if pointTotal < teams[0].Score {
-        "Your team lost against the \(teams[0].TeamName), SOL!"
+        print("Your team lost against the \(teams[0].TeamName), SOL!")
         
         totalLosses += 1
     } else {
-        "it's a tie..."
+        print("it's a tie...")
         
         totalDraws += 1
     }
@@ -48,15 +48,15 @@ func chapterTwo() {
     
     
     if pointTotal > teams[1].Score {
-        "Great job, coach! You Won against the \(teams[1].TeamName)!"
+        print("Great job, coach! You Won against the \(teams[1].TeamName)!")
         
         totalWins += 1
     } else if pointTotal < teams[1].Score {
-        "Your team lost against the \(teams[1].TeamName), SOL!"
+        print("Your team lost against the \(teams[1].TeamName), SOL!")
         
         totalLosses += 1
     } else {
-        "it's a tie..."
+        print("it's a tie...")
         
         totalDraws += 1
     }
@@ -74,15 +74,15 @@ func chapterTwo() {
     
     
     if pointTotal > teams[2].Score {
-        "Great job, coach! You Won against the \(teams[2].TeamName)!"
+        print("Great job, coach! You Won against the \(teams[2].TeamName)!")
         
         totalWins += 1
     } else if pointTotal < teams[2].Score {
-        "Your team lost against the \(teams[2].TeamName), SOL!"
+       print("Your team lost against the \(teams[2].TeamName), SOL!")
         
         totalLosses += 1
     } else {
-        "it's a tie..."
+        print("it's a tie...")
         
         totalDraws += 1
     }
@@ -98,15 +98,15 @@ func chapterTwo() {
     //IF ELSE STATEMENT
     
     if pointTotal > teams[3].Score {
-        "Great job, coach! You Won against the \(teams[3].TeamName)!"
+        print("Great job, coach! You Won against the \(teams[3].TeamName)!")
         
         totalWins += 1
     } else if pointTotal < teams[3].Score {
-        "Your team lost against the \(teams[3].TeamName), SOL!"
+        print("Your team lost against the \(teams[3].TeamName), SOL!")
         
         totalLosses += 1
     } else {
-        "it's a tie..."
+        print("it's a tie...")
         
         totalDraws += 1
     }
@@ -122,15 +122,15 @@ func chapterTwo() {
     //IF ELSE STATEMENT
     
     if pointTotal > teams[4].Score {
-        "Great job, coach! You Won against the \(teams[4].TeamName)!"
+        print("Great job, coach! You Won against the \(teams[4].TeamName)!")
         
         totalWins += 1
     } else if pointTotal < teams[4].Score {
-        "Your team lost against the \(teams[4].TeamName), SOL!"
+        print("Your team lost against the \(teams[4].TeamName), SOL!")
         
         totalLosses += 1
     } else {
-        "it's a tie..."
+        print("it's a tie...")
         
         totalDraws += 1
     }
@@ -145,15 +145,15 @@ func chapterTwo() {
     //IF ELSE STATEMENT
     
     if pointTotal > teams[5].Score {
-        "Great job, coach! You Won against the \(teams[5].TeamName)!"
+        print("Great job, coach! You Won against the \(teams[5].TeamName)!")
         
         totalWins += 1
     } else if pointTotal < teams[5].Score {
-        "Your team lost against the \(teams[5].TeamName), SOL!"
+        print("Your team lost against the \(teams[5].TeamName), SOL!")
         
         totalLosses += 1
     } else {
-        "it's a tie..."
+        print("it's a tie...")
         
         totalDraws += 1
     }
@@ -166,21 +166,18 @@ func chapterTwo() {
     print("Good Luck!")
     
     //IF ELSE STATEMENT
-    var totalWins = 0
-    var totalLosses = 0
-    var totalDraws = 0
     
     
     if pointTotal > teams[6].Score {
-        "Great job, coach! You Won against the \(teams[6].TeamName)!"
+        print("Great job, coach! You Won against the \(teams[6].TeamName)!")
         
         totalWins += 1
     } else if pointTotal < teams[6].Score {
-        "Your team lost against the \(teams[6].TeamName), SOL!"
+        print("Your team lost against the \(teams[6].TeamName), SOL!")
         
         totalLosses += 1
     } else {
-        "it's a tie..."
+        print("it's a tie...")
         
         totalDraws += 1
     }
@@ -197,15 +194,15 @@ func chapterTwo() {
     
     
     if pointTotal > teams[7].Score {
-        "Great job, coach! You Won against the \(teams[7].TeamName)!"
+       print("Great job, coach! You Won against the \(teams[7].TeamName)!")
         
         totalWins += 1
     } else if pointTotal < teams[7].Score {
-        "Your team lost against the \(teams[7].TeamName), SOL!"
+        print("Your team lost against the \(teams[7].TeamName), SOL!")
         
         totalLosses += 1
     } else {
-        "it's a tie..."
+        print("it's a tie...")
         
         totalDraws += 1
     }
@@ -222,15 +219,15 @@ func chapterTwo() {
     
     
     if pointTotal > teams[8].Score {
-        "Great job, coach! You Won against the \(teams[8].TeamName)!"
+        print("Great job, coach! You Won against the \(teams[8].TeamName)!")
         
         totalWins += 1
     } else if pointTotal < teams[8].Score {
-        "Your team lost against the \(teams[8].TeamName), SOL!"
+        print("Your team lost against the \(teams[8].TeamName), SOL!")
         
         totalLosses += 1
     } else {
-        "it's a tie..."
+        print("it's a tie...")
         
         totalDraws += 1
     }
@@ -407,7 +404,8 @@ func chapterTwo() {
             totalDraws += 1
         }
         
-        return "point value xd \(pointTotal)"
+        return ""
     }
+    print(chant())
 }
 
