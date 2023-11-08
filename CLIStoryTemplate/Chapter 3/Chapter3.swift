@@ -40,17 +40,15 @@ var didWinSuperbowl = false
 
 func chapterThree() {
 
- // Your portion of the story goes here
     print("Great job \(coachName)!!")
     print("You've made it through the regular season, now let's see how you made it to the play-offs!")
     print("You need to have at least 10 regualar season wins to make it.")
     print("You're ending season scores are")
-    // add function that totals wins from regular season
-    //wins = sum.
+   
+    
     print("Total Wins")
     print(totalWins)
-    // add function that totals losses from the regular season
-    //losses = sum.
+    
     print("Total Losses")
     print(totalLosses)
     
@@ -96,6 +94,8 @@ func chapterThree() {
             print("You're in the second round of the play-off's now")
             print("The lions will now play against \(newTeam.POTeamName)")
             print("you are feeling \(coachfeelings.happy)!")
+            print("Let's lead the team in the fight song!! ")
+            print(chant())
             
             if pointTotal >= newTeam.POScore {
                 
@@ -160,6 +160,8 @@ func chapterThree() {
                 
                 print("Great job, coach! You Won against the \(newTeam.POTeamName)! YOU DID IT!!!!")
                 print("You, the team, and the whole city of Detroit are feeling \(coachfeelings.thrilled)!!!")
+                print("Let's lead the team in the fight song!! ")
+                print(chant())
                 
                 
                 totalWins += 1

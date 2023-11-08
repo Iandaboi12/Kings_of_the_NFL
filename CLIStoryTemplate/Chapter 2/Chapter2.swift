@@ -11,6 +11,30 @@ var totalLosses = 0
 var totalDraws = 0
 
 
+
+func chant() -> String{
+    
+    var numberofClaps = 0
+    for number in 1...5 {
+        numberofClaps += 2
+        if number.isMultiple(of: 2) {
+            print("Forward down the field")
+            print("A charging team that will not yield.")
+            print("And when the Blue and Silver wave,")
+            print("Stand and cheer the brave.")
+            print("Rah, Rah, Rah.")
+            print("Go hard, win the game.")
+            print("With honor you will keep your fame.")
+            print("Down the field and gain,")
+            print("A Lion victory!")
+        }
+
+    }
+    return ""
+}
+
+
+
 func chapterTwo() {
     
     //Game 1
@@ -262,26 +286,9 @@ func chapterTwo() {
     print("Game 11")
     print("Detroit Lions Vs Denver Broncos")
     print("Ignite your team by chanting the Fight Song.")
+    print(chant())
     
-    //loop
-    func chant() -> String{
-        
-        var numberofClaps = 0
-        for number in 1...5 {
-            numberofClaps += 2
-            if number.isMultiple(of: 2) {
-                print("Forward down the field")
-                print("A charging team that will not yield.")
-                print("And when the Blue and Silver wave,")
-                print("Stand and cheer the brave.")
-                print("Rah, Rah, Rah.")
-                print("Go hard, win the game.")
-                print("With honor you will keep your fame.")
-                print("Down the field and gain,")
-                print("A Lion victory!")
-            }
-            
-        }
+
         
         print("Good Luck!")
         
@@ -404,8 +411,6 @@ func chapterTwo() {
             totalDraws += 1
         }
         
-        return ""
-    }
-    print(chant())
+
 }
 
